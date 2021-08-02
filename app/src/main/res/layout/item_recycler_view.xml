@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/item_id"
+    style="@style/Theme.RateOfCurrency.ItemRecyclerView.BackgroundItemCard"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="4dp"
+    android:background="@drawable/rectangle_drawable">
+
+    <TextView
+        android:id="@+id/tv_id"
+        style="@style/Theme.RateOfCurrency.ItemRecyclerView.TextViewItemName"
+        android:layout_marginStart="32dp"
+        android:text="@string/text_tv_id"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_act_time"
+        style="@style/Theme.RateOfCurrency.ItemRecyclerView.TextViewItemName"
+        android:text="@string/text_tv_actualtime"
+        app:layout_constraintStart_toStartOf="@+id/tv_id"
+        app:layout_constraintTop_toBottomOf="@+id/tv_id" />
+
+    <TextView
+        android:id="@+id/tv_comment"
+        style="@style/Theme.RateOfCurrency.ItemRecyclerView.TextViewItemName"
+        android:text="@string/text_tv_comment"
+        app:layout_constraintStart_toStartOf="@+id/tv_act_time"
+        app:layout_constraintTop_toBottomOf="@+id/tv_act_time" />
+
+    <TextView
+        android:id="@+id/tv_cmd"
+        style="@style/Theme.RateOfCurrency.ItemRecyclerView.TextViewItemName"
+        android:text="@string/text_tv_cmd"
+        app:layout_constraintStart_toStartOf="@+id/tv_pair"
+        app:layout_constraintTop_toBottomOf="@+id/tv_pair" />
+
+    <TextView
+        android:id="@+id/tv_period"
+        style="@style/Theme.RateOfCurrency.ItemRecyclerView.TextViewItemName"
+        android:text="@string/text_tv_period"
+        app:layout_constraintStart_toStartOf="@+id/tv_trad_sys"
+        app:layout_constraintTop_toBottomOf="@+id/tv_trad_sys" />
+
+    <TextView
+        android:id="@+id/tv_pair"
+        style="@style/Theme.RateOfCurrency.ItemRecyclerView.TextViewItemName"
+        android:text="@string/text_tv_pair"
+        app:layout_constraintStart_toStartOf="@+id/tv_comment"
+        app:layout_constraintTop_toBottomOf="@+id/tv_comment" />
+
+    <TextView
+        android:id="@+id/tv_price"
+        style="@style/Theme.RateOfCurrency.ItemRecyclerView.TextViewItemName"
+        android:text="@string/text_tv_price"
+        app:layout_constraintStart_toStartOf="@+id/tv_period"
+        app:layout_constraintTop_toBottomOf="@+id/tv_period" />
+
+    <TextView
+        android:id="@+id/tv_sl"
+        style="@style/Theme.RateOfCurrency.ItemRecyclerView.TextViewItemName"
+        android:text="@string/text_tv_sl"
+        app:layout_constraintStart_toStartOf="@+id/tv_price"
+        app:layout_constraintTop_toBottomOf="@+id/tv_price" />
+
+    <TextView
+        android:id="@+id/tv_tp"
+        style="@style/Theme.RateOfCurrency.ItemRecyclerView.TextViewItemName"
+        android:layout_marginBottom="24dp"
+        android:text="@string/text_tv_tp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/tv_sl"
+        app:layout_constraintTop_toBottomOf="@+id/tv_sl" />
+
+    <TextView
+        android:id="@+id/tv_trad_sys"
+        style="@style/Theme.RateOfCurrency.ItemRecyclerView.TextViewItemName"
+        android:text="@string/text_tv_tradingsystem"
+        app:layout_constraintStart_toStartOf="@+id/tv_cmd"
+        app:layout_constraintTop_toBottomOf="@+id/tv_cmd" />
+
+    <TextView
+        android:id="@+id/tv_id_val"
+        style="@style/Theme.RateOfCurrency.ItemRecyclerView.TextViewItemValue"
+        android:text=""
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tv_id"
+        app:layout_constraintTop_toTopOf="@+id/tv_id"
+        tools:text="5597" />
+
+    <TextView
+        android:id="@+id/tv_act_time_val"
+        style="@style/Theme.RateOfCurrency.ItemRecyclerView.TextViewItemValue"
+        android:text=""
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tv_act_time"
+        app:layout_constraintTop_toTopOf="@+id/tv_act_time"
+        tools:text="31.07.2021 10:20:21" />
+
+    <TextView
+        android:id="@+id/tv_comment_val"
+        style="@style/Theme.RateOfCurrency.ItemRecyclerView.TextViewItemValue"
+        android:text=""
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tv_comment"
+        app:layout_constraintTop_toTopOf="@+id/tv_comment"
+        tools:text="H1, Trend channel" />
+
+    <TextView
+        android:id="@+id/tv_pair_val"
+        style="@style/Theme.RateOfCurrency.ItemRecyclerView.TextViewItemValue"
+        android:text=""
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tv_pair"
+        app:layout_constraintTop_toTopOf="@+id/tv_pair"
+        tools:text="EURJPY" />
+
+    <TextView
+        android:id="@+id/tv_cmd_val"
+        style="@style/Theme.RateOfCurrency.ItemRecyclerView.TextViewItemValue"
+        android:text=""
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tv_cmd"
+        app:layout_constraintTop_toTopOf="@+id/tv_cmd"
+        tools:text="4" />
+
+    <TextView
+        android:id="@+id/tv_trad_sys_val"
+        style="@style/Theme.RateOfCurrency.ItemRecyclerView.TextViewItemValue"
+        android:text=""
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tv_trad_sys"
+        app:layout_constraintTop_toTopOf="@+id/tv_trad_sys"
+        tools:text="3" />
+
+    <TextView
+        android:id="@+id/tv_period_val"
+        style="@style/Theme.RateOfCurrency.ItemRecyclerView.TextViewItemValue"
+        android:text=""
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tv_period"
+        app:layout_constraintTop_toTopOf="@+id/tv_period" />
+
+    <TextView
+        android:id="@+id/tv_price_val"
+        style="@style/Theme.RateOfCurrency.ItemRecyclerView.TextViewItemValue"
+        android:text=""
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tv_price"
+        app:layout_constraintTop_toTopOf="@+id/tv_price"
+        tools:text="118.04199981689453" />
+
+    <TextView
+        android:id="@+id/tv_sl_val"
+        style="@style/Theme.RateOfCurrency.ItemRecyclerView.TextViewItemValue"
+        android:text=""
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tv_sl"
+        app:layout_constraintTop_toTopOf="@+id/tv_sl"
+        tools:text="117.66400146484375" />
+
+    <TextView
+        android:id="@+id/tv_tp_val"
+        style="@style/Theme.RateOfCurrency.ItemRecyclerView.TextViewItemValue"
+        android:text=""
+        app:layout_constraintBottom_toBottomOf="@+id/tv_tp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tv_tp"
+        app:layout_constraintTop_toTopOf="@+id/tv_tp"
+        tools:text="118.41999816894531" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

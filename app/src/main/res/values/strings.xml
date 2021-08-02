@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Rate of currency</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="login_te_hint_text">Логин</string>
+    <string name="password_te_hint_text">Пароль</string>
+    <string name="btn_sign_in_text">Войти</string>
+    <string name="text_auth_this">Авторизация</string>
+    <string name="text_btn_get_pair">Валютные пары</string>
+    <string name="text_btn_date_from">Дата с</string>
+    <string name="text_btn_date_to">Дата по</string>
+    <string name="text_tv_id">Id:</string>
+    <string name="text_tv_actualtime">ActualTime:</string>
+    <string name="text_tv_comment">Comment:</string>
+    <string name="text_tv_cmd">Cmd:</string>
+    <string name="text_tv_period">Period:</string>
+    <string name="text_tv_pair">Pair:</string>
+    <string name="text_tv_price">Price:</string>
+    <string name="text_tv_sl">Sl:</string>
+    <string name="text_tv_tp">Tp:</string>
+    <string name="text_tv_tradingsystem">TradingSystem:</string>
+</resources>

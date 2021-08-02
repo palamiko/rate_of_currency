@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/eur_usd"
+        android:title="EUR/USD"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/gpb_usd"
+        android:title="GBP/USD"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/usd_jpu"
+        android:title="USD/JPY"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/usd_chf"
+        android:title="USD/CHF"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/usd_cad"
+        android:title="USD/CAD"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/aud_usd"
+        android:title="AUD/USD"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/nzd_usd"
+        android:title="NZD/USD"
+        app:showAsAction="never"/>
+
+</menu>

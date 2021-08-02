@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="text_btn_get_pair">Валютные пары</string>
+    <string name="text_btn_date_from">Дата с</string>
+    <string name="text_btn_date_to">Дата по</string>
+    <string name="text_tv_id">Id:</string>
+    <string name="text_tv_actualtime">ActualTime:</string>
+    <string name="text_tv_comment">Comment:</string>
+    <string name="text_tv_cmd">Cmd:</string>
+    <string name="text_tv_period">Period:</string>
+    <string name="text_tv_pair">Pair:</string>
+    <string name="text_tv_price">Price:</string>
+    <string name="text_tv_sl">Sl:</string>
+    <string name="text_tv_tp">Tp:</string>
+    <string name="text_tv_tradingsystem">TradingSystem:</string>
+</resources>
